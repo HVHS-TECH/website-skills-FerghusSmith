@@ -1,3 +1,12 @@
 body {
     background-color: lightgreen;
+    font: italic 20px Georgia;
+  img {
+    border-radius: 125px;
+    border: 3px solid #025a66;
+    margin: 5px;
+  }
+  a {
+    color: aliceblue;
+  }
   }

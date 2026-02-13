@@ -6,7 +6,41 @@ body {
     border: 3px solid #025a66;
     margin: 5px;
   }
-  a {
-    color: aliceblue;
+  ol {
+    list-style-type: lower-roman;
+  }
+  .LinkAboutMe {
+    font: italic 20px arial;
+  }
+  .LinkSubjects {
+    font: bold 20px Georgia;
+  }
+  .welcomeFFF {
+    color: lightgreen;
+  }
+  header {
+    background-color: green;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 10px;
+    border-radius: 10px;
+  }
+  nav {
+    background-color: yellow;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+  }
+  main {
+    background-color: blue;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+  }
+  footer {
+    background-color: purple;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
   }
   }

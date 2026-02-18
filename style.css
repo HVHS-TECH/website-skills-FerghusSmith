@@ -39,8 +39,11 @@ body {
     margin: 10px;
     border-radius: 10px;
   }
+  .MainText {
+    color: white;
+  }
   footer {
-    background-color: purple;
+    background-color: pink;
     padding: 5px;
     margin: 10px;
     border-radius: 10px;

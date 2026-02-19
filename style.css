@@ -1,7 +1,8 @@
 body {
     background-color: lightgreen;
     font: italic 20px Georgia;
-  img {
+  }
+  .indexPics {
     border-radius: 125px;
     border: 3px solid #025a66;
     margin: 5px;
@@ -51,25 +52,26 @@ body {
 
   .container {
     display: grid;
-    grid-template-columns: auto auto auto ;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 20% 20% 20% 20%;
     background-color: aqua;
     padding: 1%;
     gap: 2% 3%;
-    height:300px;
+    height:500px;
   }
   .container div {
     background-color: green;
     border: 1px solid black;
-    padding: 1px;
+    padding: 4px;
     font-size: 30px;
     text-align: center;
   }
   .item1 {
-    order: 2;
+    grid-row: 1 / span 2;
   }
-  .item6 {
-    order: 3;
+  .item3 {
+    size: 50px;
   }
-
-
+  .item10 {
+    grid-column: 3 / span 2
   }
